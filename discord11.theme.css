@@ -15,7 +15,7 @@
 @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css);
 @import url(https://zuzumi-f.github.io/Discord-11/release/glasseffect.css);
 :root {
-    --wallpaper-is: url(https://agentseed.org/imgs/grainy-grad-bg.png);
+    --wallpaper-is: url(https://agentseed.org/gradbgs/002.png);
     --blur-size: 10px;
     --opacity-thing: 0.6;
     --server-size: 69px;
@@ -40,17 +40,20 @@
 .chatContent__5dca8, .container_ca50b9, .themed_b152d4, .container__11d72, .shop_b31ed2, .panels__58331 {
     background: transparent !important;
 }
-.scrollableContainer__33e06, .themedBackground__6b1b6, .webkit__8d35a {
+.scrollableContainer__33e06, .themedBackground__6b1b6, .webkit__8d35a, .container__7c79d, .nonMediaAttachmentsContainer_ca7b77, .embedWrapper_c143d9, .embedFull__8dc21, .embed_d3cbe3 {
     background: #0000003f;
     backdrop-filter: blur(var(--blur-size));
 }
-.mentioned__58017, .zalgo__39311:hover {
+.mentioned__58017, .zalgo__39311:hover, .container__7c79d, .container__7c79d:hover, .nonMediaAttachmentsContainer_ca7b77, .modeSelected__487d6 {
     backdrop-filter: blur(var(--blur-size));
-    border-radius: 10px;
+    border-radius: 10px !important;
 }
 .channel_c21703, .container__8759a {
     display: hidden;
 }
 .zalgo__39311:hover {
     background-color: #0000003f !important;
+}
+.container__7c79d, .modeSelected__487d6, .reaction_fef95b {
+    backdrop-filter: blur(var(--blur-size));
 }
