@@ -1,6 +1,6 @@
 /**
- * @name Discord 11
- * @description Based on Windows 11's UI
+ * @name Discord 11 (fixed)
+ * @description Based on Windows 11's UI, fixed by agentseed
  * @author zuzumi
  * @authorId 437579806616322049
  * @version 3.1
@@ -15,7 +15,10 @@
 @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css);
 @import url(https://zuzumi-f.github.io/Discord-11/release/glasseffect.css);
 :root {
-    --wallpaper-is: url(https://agentseed.org/gradbgs/002.png);
+    --wallpaper-is: url(https://agentseed.org/ranbg?color=purple);
+                                                /* change the 'purple' to whichever color suits your discord best, this will fetch a random (grainy gradient) background image from my server
+                                                currently supported colors: blue, green, purple
+                                                */
     --blur-size: 10px;
     --opacity-thing: 0.6;
     --server-size: 69px;
@@ -40,7 +43,7 @@
 .chatContent__5dca8, .container_ca50b9, .themed_b152d4, .container__11d72, .shop_b31ed2, .panels__58331 {
     background: transparent !important;
 }
-.scrollableContainer__33e06, .themedBackground__6b1b6, .webkit__8d35a, .container__7c79d, .nonMediaAttachmentsContainer_ca7b77, .embedWrapper_c143d9, .embedFull__8dc21, .embed_d3cbe3 {
+.scrollableContainer__33e06, .themedBackground__6b1b6, .webkit__8d35a, .container__7c79d, .nonMediaAttachmentsContainer_ca7b77, .embedWrapper_c143d9, .embedFull__8dc21, .embed_d3cbe3, .zalgo__39311:hover {
     background: #0000003f;
     backdrop-filter: blur(var(--blur-size));
 }
@@ -50,9 +53,6 @@
 }
 .channel_c21703, .container__8759a {
     display: hidden;
-}
-.zalgo__39311:hover {
-    background-color: #0000003f !important;
 }
 .container__7c79d, .modeSelected__487d6, .reaction_fef95b {
     backdrop-filter: blur(var(--blur-size));
