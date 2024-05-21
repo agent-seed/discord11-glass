@@ -9,7 +9,10 @@
  * @website https://github.com/zuzumi-f
  * @source https://github.com/zuzumi-f/Discord-11/blob/main/base.css
 */
-@import url(https://agentseeed.org/css/discord11.css);
+
+/* hey there, I'm agentseed and I fixed this theme. If you have any issues please DM me (agentseed) and not zuzumi. */
+
+@import url(https://agentseed.org/css/discord11.css); /* this is extremely important, the theme won't work without it, please don't remove */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
 @import url(https://zuzumi-f.github.io/Discord-11/release/font/windows11font.css);
 @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css);
@@ -19,7 +22,7 @@
     --blur-size: 10px !important;
     --opacity-thing: 0.6 !important;
     --server-size: 69px !important;
-    --H: 320 !important;
+    --H: 320 !important; /* this changes the main color */
     --S: 88% !important;
     --L: 45% !important;
     --background-primary: transparent !important;
