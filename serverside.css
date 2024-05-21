@@ -79,9 +79,9 @@ AS A NORMAL USER OF THE THEME YOU DO NOT NEED TO TOUCH THIS FILE
 /* ---- END TEMP FIX ---- */
 
 /* Discord Default Values */
-@import url('https://web.archive.org/web/20240107224727cs_/https://zuzumi-f.github.io/Discord-11/release/valuesofdiscord.css');
+@import url('https://zuzumi-f.github.io/Discord-11/release/valuesofdiscord.css');
 /* Fluent Icons */
-@import url('https://web.archive.org/web/20240107224727cs_/https://discordstyles.github.io/Fluent/Icons.css');
+@import url('https://discordstyles.github.io/Fluent/Icons.css');
 
 /* Color fix */
 #app-mount .container-3wLKDe /* Forums */,
