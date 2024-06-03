@@ -20,6 +20,7 @@ AS A NORMAL USER OF THE THEME YOU DO NOT NEED TO TOUCH THIS FILE
     --L: 45%;
     --background-secondary: transparent;
     --background-tertiary: transparent;
+    --background-secondary-alt: transparent !important;
     --windark4: #00000000; /* #0000003f */
     --background-mentioned: hsla(var(--H), var(--S), var(--L), 10%)
 }
@@ -47,7 +48,7 @@ AS A NORMAL USER OF THE THEME YOU DO NOT NEED TO TOUCH THIS FILE
 .channel_c21703, .container__8759a {
     display: hidden;
 }
-.imageWrapper_fd6587, .modeSelected__487d6, .reaction_fef95b, .textContainer__7712a {
+.imageWrapper_fd6587, .modeSelected__487d6, .reaction_fef95b, .textContainer__7712a, .container_debb33 {
     backdrop-filter: blur(var(--blur-size));
 }
 [id="Discord 11-card"] {
