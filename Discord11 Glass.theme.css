@@ -1,0 +1,33 @@
+/**
+ * @name Discord 11 Glass
+ * @description A glass theme with blur, based on Discord11 by zuzumi
+ * @author agentseed
+ * @authorId 687855724717801502
+ * @version 1.0.1
+ * @invite NfEvbSbS6E
+ * @website https://agentseed.org/discord11-glass
+ * @source https://github.com/agent-seed/discord11-glass
+*/
+
+@import url(https://agentseed.org/discord11-glass/discord11-glass.serverside.css); /* this is extremely important, the theme won't work without it, please don't remove */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+@import url(https://agentseed.org/discord11-glass/windows11font.css);
+@import url(https://agentseed.org/discord11-glass/messagebubble11.css);
+@import url(https://agentseed.org/discord11-glass/glasseffect.css);
+:root {
+    --wallpaper-is: url(https://agentseed.org/ranbg?color=purple) !important; /* change the 'purple' to whichever color suits your discord best, this will fetch a random (grainy gradient) background image from my server. currently supported colors: blue, green, purple, red */
+    --blur-size: 10px !important;
+    --opacity-thing: 0.6 !important;
+    --server-size: 69px !important;
+    --H: 340 !important; /* this changes the main color */
+    --S: 88% !important;
+    --L: 45% !important;
+    --background-primary: transparent !important;
+    --background-secondary: transparent !important;
+    --background-tertiary: transparent !important;
+    --background-secondary-alt: #0000003f !important;
+    --windark4: #00000000 !important; /* #0000003f */
+    --background-mentioned: hsla(var(--H), var(--S), var(--L), 10%) !important;
+    --info-danger-foreground: hsl(var(--H), 100%, 50%) !important;
+    --info-danger-background: hsl(var(--H), 100%, 50%) !important;
+}
